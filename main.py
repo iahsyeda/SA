@@ -14,6 +14,7 @@ import os
 
 load_dotenv()
 
+OPEN_API_KEY = os.getenv("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")
 # Define the main function
 def main():
     st.header("Ask PP 💬")
